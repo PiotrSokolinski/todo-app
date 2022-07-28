@@ -1,0 +1,50 @@
+{
+  "component": {
+    "textArea":{
+      "placeholder": "Write the description of the Todo..."
+    },
+    "modal": {
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "closeAlt": "Close"
+    }
+  },
+ "container": {
+   "dashboard": {
+     "title": "Todo list application"
+   },
+   "createTodo": {
+     "addTodo": "Add Todo",
+     "title": "Create your Todo task"
+   },
+   "singleTodo": {
+     "delete": "Delete Todo",
+     "update": "Update Todo",
+     "completedLabel": "Completed",
+     "uuid": "UUID:",
+     "text": "Description of the Todo",
+     "success": "Successfully updated!",
+     "modalTitle": "Confirm action",
+     "modalBody": "Are you sure you want to delete todo with uuid: {uuid}"
+   },
+   "todoList": {
+     "removeBulk": "Remove all completed",
+     "title": "List of your Todos",
+     "empty": "You have zero Todos created."
+   }
+ },
+  "notFound": {
+    "header": "Opps! Page not found",
+    "subheader": "Sorry, the page you're looking for doesn't exist. You can go back or return to dashboard page.",
+    "goBack": "Go back",
+    "goDashboard": "Go to dashboard",
+    "iconAlt": "Not found icon"
+  },
+  "fallback": {
+    "header": "An error has occurred",
+    "subheader": "Oops, something went wrong. It seems the page does not work as it should, please help us by reporting a problem.",
+    "refresh": "Refresh",
+    "reportBug": "Report a problem",
+    "iconAlt": "Fallback icon"
+  }
+}
